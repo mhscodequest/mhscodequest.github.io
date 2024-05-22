@@ -4,33 +4,31 @@ import Layout from '../../layouts/Page.astro';
 import { Container } from '@components/odyssey-theme';
 
 const seo = {
-	title: 'Contact | Astro Odyssey Theme',
+	title: 'Contact | MHS Code Quest',
 	description: 'Contact Page',
 };
 ---
 
-<Layout seo={seo}>
+<Layout {seo}>
 	<Container>
 		<section class="contact-hero__section">
 			<div class="contact-hero__text-section">
 				<h1>Contact Us</h1>
-				<p>
-					This is a contact form using Odyssey's form components to create a
-					contact form component. The contact form is setup to use Netlify's
-					form detection; however, it can easily be translated to other popular
-					form services such as Formspree, Getform, Formspark, etc.
-				</p>
-				<div>
-					<p>
-						<em><a href="tel:8008675309">(800) 867-5309</a></em> • <em
-							><a href="mailto:hello@odysseytheme.com">hello@ourcompany.com</a
-							></em
+				<ul>
+					<li>
+						Email us at <a href="mailto:mhscodequest@gmail.com"
+							>mhscodequest@gmail.com</a
 						>
-					</p>
-				</div>
-			</div>
-			<div class="col-2__container">
-				<ContactForm />
+					</li>
+					<li>
+						Join our <a href="https://discord.gg/a4AWp5BmgG">Discord</a>
+					</li>
+					<li>
+						Follow us on <a href="https://www.instagram.com/mhs_codequest"
+							>Instagram</a
+						>
+					</li>
+				</ul>
 			</div>
 		</section>
 	</Container>
@@ -39,7 +37,7 @@ const seo = {
 <style>
 	.contact-hero__section {
 		margin: var(--section-margin) auto;
-		display: grid;
+		/* display: grid; */
 		grid-template-columns: 1fr 1fr;
 		min-height: calc(90vh - var(--navbar-height));
 		gap: 3rem;

@@ -31,7 +31,7 @@ export const footerLists = [
 			},
 			{
 				title: 'Submit a request',
-				slug: '/blog',
+				slug: '/requests',
 			},
 			{
 				title: 'Contact',
