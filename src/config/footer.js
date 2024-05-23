@@ -1,22 +1,17 @@
 export const footerSocials = [
 	{
-		name: 'Twitter',
-		url: 'https://twitter.com/littlesticksdev',
-		icon: 'mdi:twitter',
-	},
-	{
-		name: 'Youtube',
-		url: 'https://youtube.com/c/LittleSticks',
-		icon: 'mdi:youtube',
+		name: 'Instagram',
+		url: 'https://instagram.com/mhs_codequest',
+		icon: 'mdi:instagram',
 	},
 	{
 		name: 'Github',
-		url: 'https://github.com/littlesticks',
+		url: 'https://github.com/mhscodequest',
 		icon: 'mdi:github',
 	},
 	{
 		name: 'Discord',
-		url: 'https://littlesticks.dev/discord',
+		url: 'https://discord.gg/a4AWp5BmgG',
 		icon: 'ic:baseline-discord',
 	},
 ];
@@ -28,10 +23,6 @@ export const footerLists = [
 			{
 				title: 'About',
 				slug: '/company/about',
-			},
-			{
-				title: 'Submit a request',
-				slug: '/requests',
 			},
 			{
 				title: 'Contact',
